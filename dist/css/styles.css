@@ -11290,8 +11290,9 @@ html {
 }
 
 .page-section {
+  height: auto;
   padding-top: calc(7rem + 74px);
-  padding-bottom: auto;
+  padding-bottom: 3rem;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -11446,6 +11447,7 @@ html {
 }
 
 .masthead-center {
+  padding-top: 7rem;
   text-align: center;
   width: 100%;
   position: absolute;
