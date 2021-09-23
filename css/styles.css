@@ -3077,7 +3077,6 @@ textarea.form-control-lg {
 .btn-secondary:hover {
   color: #2c3e50;
   background-color: #1abc9c;
-  border-color: #2c3e50;
 }
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
   color: #fff;
@@ -6773,7 +6772,7 @@ textarea.form-control-lg {
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0.1rem 0.1rem 0.8rem black !important;
 }
 
 .shadow-sm {
@@ -11460,18 +11459,22 @@ html {
   color: #6c757d;
 }
 
-video {
+.video-primary {
   width: 60%;
   min-width: 40%;
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  min-height: 80vh;
+  background-color: rgba(0, 0, 0, 0.2);
+
 }
 
 .masthead {
   width: 100%;
   height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-
 }
 
 .masthead-center {
