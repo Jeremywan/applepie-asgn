@@ -11510,7 +11510,7 @@ html {
       display: none;
   }
 
-  body {
+  .video-background {
       background-image: url(poster.png);
       background-size: cover;
   }
